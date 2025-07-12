@@ -15,7 +15,6 @@ import javax.ws.rs.core.MediaType;
 @Path("/ws/info")
 public interface BackendServiceRemote {
   @GET
-  @Path("")
   @Produces(MediaType.APPLICATION_JSON)
   public Backend get();
 }
